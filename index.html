@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sneakers.css">
+
+<title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="top-details">
+        <div class="top-details-left">
+          <div class="hamburger-parent">
+          <div class="hamburger"></div>
+
+          </div>
+
+          <div class="logo-box">
+            <a href="#">
+              <img src="./images/logo.svg" alt="sneakers logo">
+            </a>
+          </div>
+          <nav>
+              <ul class="nav-lists">
+                <li><a href="">Collections</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+          </nav>
+        </div>
+
+        <div class="user-profile">
+          <div class="user-cart">
+            <a href="#"><img src="./images/icon-cart.svg" alt="cart-icon"></a>
+          </div>
+          <div class="user-photo-box">
+            <a href="#">
+              <img src="./images/image-avatar.png" alt="profile photo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="carted-items" hidden>
+      <div class="top-content">
+        <h5>Cart</h5>
+        <hr>
+      </div>
+      <div class="bottom-content">
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+
+    <article class="products">
+      <div class="product-display">
+        <div class="big-display">
+          <img src="./images/image-product-1.jpg" alt="image-prod-1">
+        </div>
+        <div class="small-display">
+          <div class="thumbnails">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="thumbnail-one">
+          </div>
+          <div class="thumbnails">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="thumbnail-two">
+          </div>
+          <div class="thumbnails">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="thumbnail-three">
+          </div>
+          <div class="thumbnails">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="thumbnail-four">
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details">
+        <div class="product-name">
+          <h5>Sneaker Company</h5>
+          <h2>Fall Limited Edition Sneakers</h2>
+        </div>
+
+        <div class="product-description">
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they'll withstand everything the weather can offer.
+          </p>
+        </div>
+
+        <div class="product-price">
+          <div class="discount">
+            <h4>$125.00</h4>
+            <button>50%</button>
+          </div>
+          <p class="hiked-price">$250.00</p>
+        </div>
+
+        <div class="cart-items">
+          <div class="select-items">
+            <button id="minus">
+              <img src="./images/icon-minus.svg" alt="minus">
+            </button>
+            <p>1</p>
+            <button id="plus">
+              <img src="./images/icon-plus.svg" alt="plus">
+            </button>
+          </div>
+          <button class="cart-btn">
+            <a href="#">
+              <img src="./images/icon-cart.svg" alt="cart">
+            </a>
+            <a href=""><p>Add to cart</p></a>
+          </button>
+        </div>
+      </div>
+
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="https://github.com/Oluzicco22">Frontend Mentor</a>. 
+      Coded by <a href="#">Isaac Olubusoye</a>.
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
